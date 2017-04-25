@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [gl (v4.0.3)](https://github.com/stackgl/headless-gl#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gl.svg)](https://travis-ci.org/npmtest/node-npmtest-gl)",
+    "description": "#### basic test coverage for  [gl (v4.0.3)](https://github.com/stackgl/headless-gl#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gl.svg)](https://travis-ci.org/npmtest/node-npmtest-gl)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "gl": "*",

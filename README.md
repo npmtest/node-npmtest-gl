@@ -1,6 +1,6 @@
 # npmtest-gl
 
-#### test coverage for  [gl (v4.0.3)](https://github.com/stackgl/headless-gl#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gl.svg)](https://travis-ci.org/npmtest/node-npmtest-gl)
+#### basic test coverage for  [gl (v4.0.3)](https://github.com/stackgl/headless-gl#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gl.svg)](https://travis-ci.org/npmtest/node-npmtest-gl)
 
 #### Creates a WebGL context without a window
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gl/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gl/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gl/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gl/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gl/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gl/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gl/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gl/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gl/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gl/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gl/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gl/build/coverage.html/index.html)
 
@@ -133,7 +133,8 @@
         "rebuild": "node-gyp rebuild --verbose",
         "test": "standard | snazzy && tape test/*.js | faucet"
     },
-    "version": "4.0.3"
+    "version": "4.0.3",
+    "bin": {}
 }
 ```
 
